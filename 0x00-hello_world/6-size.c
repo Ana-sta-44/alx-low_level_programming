@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
- * main - A program that prints the size of various types
-in computer
- * Return 0(success)
+ * main - this is the function 6-size.c
+ * decription - A c programm that prints various type
+in the computer
+ * Return: 0(success)
  */
 int main(void)
 {
