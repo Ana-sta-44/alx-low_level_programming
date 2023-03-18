@@ -2,13 +2,12 @@
 
 /**
  * main - main function
- *
+ *i
  * Return: always 0
  */
-int main(void)
-{		
-	char i;
 
+int main(void)
+{
 	for (i = 'a' ; i <= 'z' ; i++)
 		putchar(i);
 	putchar('\n');
