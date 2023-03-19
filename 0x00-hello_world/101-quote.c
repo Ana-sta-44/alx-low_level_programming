@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description - A c program that prints exactly
+ *
  * Return: 1 always
  */
 int main(void)
