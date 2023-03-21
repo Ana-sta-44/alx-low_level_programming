@@ -1,4 +1,4 @@
-#incluide "main.h"
+#include "main.h"
 
 /**
  * print_sign - function that prints signs
