@@ -3,10 +3,8 @@
 /**
  * _isalpha - function that checks for alphabets
  *
- * @c: parameter to be checked
- *
- * Return: 1 if it is an alphabet
- * and 0 otherwise
+ * @c: numbers to be pass _isalpha function
+ * Return: always 0
  */
 
 int _isalpha(int c)
