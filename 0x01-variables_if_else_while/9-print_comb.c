@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry function
  *
@@ -8,18 +9,17 @@
 
 int main(void)
 {
-	int i;
+	int d;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (d = '0' ; d <= '9'; d++)
 	{
-		if (i == 9)
-			putchar(i + '0');
-		else
-		{
-			putchar(i + '0');
-			putchar(',');
-			putchar(' ');
-		}
+	putchar(d);
+	if (d != '9')
+	{
+	putchar(',');
+	putchar(' ');
 	}
+	}
+	putchar('\n');
 	return (0);
 }
