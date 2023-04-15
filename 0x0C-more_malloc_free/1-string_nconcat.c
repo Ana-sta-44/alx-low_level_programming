@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * string_nconcat - ...
+ * string_nconcat - a function that concatenates two strings.
  *
  * @s1: first char
  * @s2: secound char
@@ -24,7 +24,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		for (x = 0; s1[x]; ++x)
 		;
 	}
-	if (s2 == null)
+	if (s2 == NULL)
 	{
 		y = 0;
 	}
