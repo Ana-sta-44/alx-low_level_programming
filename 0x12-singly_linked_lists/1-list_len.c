@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "lists.h":
+#include "lists.h"
 
 /**
  * list_len - check the code for All school students.
