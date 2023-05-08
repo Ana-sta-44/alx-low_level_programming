@@ -1,9 +1,6 @@
 #include <stdlib.h>
-#include <sys/stat.h>
 #include "main.h"
-#include <unistd.h>
-#include <sys/types.h>
-
+#include <fcntl.h>
 /**
  * read_textfile - To read a file and prints it to the POSIX standard output
  * @letters: Number of letters it should read and print
@@ -31,11 +28,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	lenr = read(fd, buffer, letters);
 	close(fd);
-	if (lenr == -1)
-	{
-		free(buffer);
-		return (0);
-	}
 	lenw = write(STDOUT_FILENO, buffer, lenr);
 	free(buffer);
 	if (lenr != lenw)
