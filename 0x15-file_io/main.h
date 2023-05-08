@@ -5,7 +5,6 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <stdlib.h>
-#include <fctnl.h>
 #include <stdio.h>
 #include <sys/types.h>
 
