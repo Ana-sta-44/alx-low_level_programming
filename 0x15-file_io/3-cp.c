@@ -23,7 +23,8 @@ char *create_buffer(char *file)
 			"Error: Can't write to %s\n", file);
 		exit(99);
 	}
-}	
+	return (0);
+}
 
 /**
  * close_file - To close file descriptors.
